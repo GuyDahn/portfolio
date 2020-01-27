@@ -1,0 +1,58 @@
+{
+  "name": "portfolio-create-react-app",
+  "version": "0.1.0",
+  "private": false,
+  "license": "",
+  "homepage": "",
+  "dependencies": {
+    "@carbon/icons-react": "^10.8.1",
+    "@carbon/themes": "^10.9.2",
+    "bluebird": "^3.5.1",
+    "carbon-components": "^10.9.2",
+    "carbon-components-react": "^7.9.2",
+    "jest-cli": "^23.4.2",
+    "jest-json-reporter": "^1.2.2",
+    "jest-test-runner": "git+https://github.com/Elevationacademy/jest-test-runner.git",
+    "node-sass": "^4.13.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "1.1.4",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-emotion": "^10.0.9",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.4.2",
+    "jest-emotion": "^10.0.10",
+    "jest-expect-message": "github:Elevationacademy/jest-expect-message",
+    "jest-transform-stub": "^1.0.0",
+    "react-test-renderer": "^16.4.2"
+  }
+}
