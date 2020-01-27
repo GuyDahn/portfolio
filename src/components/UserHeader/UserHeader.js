@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { HeaderContainer, Header, Image } from './styles';
+import { HeaderContainer, Header, Image } from './styles.js';
 
 const UserHeader = ({ user }) => {
   const location = useLocation();
@@ -18,7 +18,6 @@ const UserHeader = ({ user }) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              @{user.basics.usernameCaseSensitive}
             </a>
           </h4>
           <p>{user.basics.label}</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph } from '../../styles';
-import { EducationItem, Institution, Degree } from './styles';
+import { EducationItem, Institution, Degree } from './styles.js';
 
 const Education = ({ user }) => {
   return (

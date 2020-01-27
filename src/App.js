@@ -9,13 +9,17 @@ function App() {
       .then(user => {
         setUser(user)
       })
-  },[])//I set this empty arr to prevent from crushing the app for too many requests
-
+  }, [] //empty arr to prevent too many requests/crashes
+  )
   if (!user) {
     return <div />;
   }
 
-  return <Pages user={user} />
+  return (
+
+      <Pages user={user} />
+   
+  )
 }
 
 export default App;

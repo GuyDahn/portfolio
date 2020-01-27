@@ -8,7 +8,6 @@ export const HeaderContainer = styled.div`
 
 export const Header = styled.div`
   display: flex;
-
   @media (max-width: 640px) {
     flex-direction: column;
   }
