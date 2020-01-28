@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: none;
 
   @media (max-width: 640px) {
-    display: block;
+    display: grid!important;
   }
 `;
 

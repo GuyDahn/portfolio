@@ -16,9 +16,7 @@ function App() {
   }
 
   return (
-
       <Pages user={user} />
-   
   )
 }
 

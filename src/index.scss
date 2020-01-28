@@ -3,6 +3,9 @@ $carbon--theme: $carbon--theme--g10;
 @include carbon--theme();
 @import 'carbon-components/scss/globals/scss/styles.scss';
 
+body {
+  background-color: #11111186!important;
+}
 a {
   color: $text-04;
 }

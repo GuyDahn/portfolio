@@ -3,9 +3,9 @@ import { Content } from 'carbon-components-react/lib/components/UIShell'
 
 export const StyledContent = styled(Content)`
   min-height: 100%;
-  background-color: black;
+  background-color: #353A34;
   color: white;
   @media (max-width: 640px) {
-    margin-left: 0 !important;
+    margin-left:200px!important;
   }
 `
