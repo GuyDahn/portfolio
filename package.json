@@ -1,6 +1,9 @@
 {
   "name": "portfolio-create-react-app",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "private": false,
   "license": "",
   "homepage": "",
