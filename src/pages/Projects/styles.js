@@ -14,3 +14,14 @@ export const ProjectTitle = styled.h4`
 export const SkillContainer = styled.div`
   margin-top: 1.2rem;
 `
+export const Pill = styled.span`
+  display: inline-block;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: ${blue[20]};
+  color: ${blue[70]};
+  border: 3px solid ${blue[70]};
+  border-radius: 5px;
+  font-weight: bold;
+`;
