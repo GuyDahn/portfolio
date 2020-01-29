@@ -5,7 +5,7 @@ import { Pill } from '../../styles';
 const Projects = ({ user }) => {
   return (
     <Layout user={user}>
-      <div>
+      <div className='proj-section'>
         <h2>Projects</h2>
         <ul>
           {user.projects.map((project, i) => (
@@ -24,14 +24,14 @@ const Projects = ({ user }) => {
 
               <div>
                 {[...project.languages,
-                  ...project.libraries].map((item, j) => (
+                ...project.libraries].map((item, j) => (
                   <Pill key={j}>{item}</Pill>
                 ))}
               </div>
               <a className='repo-link'
                 href={project.githubUrl}
                 target="_blank">
-                  See On GitHub
+                See On GitHub
                </a>
               <hr />
             </div>

@@ -4,9 +4,8 @@ import Button from 'carbon-components-react/lib/components/Button';
 
 export const Container = styled.div`
   display: none;
-
   @media (max-width: 640px) {
-    display: grid!important;
+    display: grid;
   }
 `;
 
