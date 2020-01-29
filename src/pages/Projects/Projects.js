@@ -1,24 +1,24 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { SectionTitle, Pill } from '../../styles';
-import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
+import { Pill } from '../../styles';
 
 const Projects = ({ user }) => {
   return (
     <Layout user={user}>
       <div>
-        <SectionTitle>Projects</SectionTitle>
+        <h2>Projects</h2>
         <ul>
           {user.projects.map((project, i) => (
-            <ProjectItem key={i}>
-              <ProjectTitle>{project.name}</ProjectTitle>
+            <div key={i}>
+              <h3>{project.name}</h3>
               <p>{project.summary}</p>
-              <SkillContainer>
+              <a href={project.githubUrl} target="_blank">see repository</a>
+              <div>
                 {[...project.languages, ...project.libraries].map((item, j) => (
                   <Pill key={j}>{item}</Pill>
                 ))}
-              </SkillContainer>
-            </ProjectItem>
+              </div>
+            </div>
           ))}
         </ul>
       </div>

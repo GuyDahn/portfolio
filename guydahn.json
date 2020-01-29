@@ -1,0 +1,229 @@
+{
+    "basics": {
+        "name": "Guy Dahan",
+        "picture": "https://avatars2.githubusercontent.com/u/51300186?v=4",
+        "label": "Full-Stack Web Developer | Looking forward for working with you!",
+        "headline": null,
+        "summary": "Innovation oriented solution seeker, excited to be at the deployment phase of my new career as a web developer. I am an ambitious, assiduous, responsible and highly motivated team-player. Able to build a complete full-stack MERN web app from scratch, using the technologies: JavaScript, React.js, jQuery, Handlebars, Node.js, MongoDB, SQL, Express.js, HTML, CSS.",
+        "website": null,
+        "blog": null,
+        "yearsOfExperience": 1,
+        "id": "80550bbb-0084-4e8a-80bd-d74a909006c5",
+        "username": "GuyDahn",
+        "karma": 12,
+        "email": null,
+        "region": "Tel Aviv",
+        "location": {},
+        "phone": null,
+        "followers": 0,
+        "following": 0,
+        "profiles": [
+            {
+                "network": "gitconnected",
+                "username": "GuyDahn",
+                "url": "https://gitconnected.com/GuyDahn"
+            },
+            {
+                "network": "GitHub",
+                "username": "GuyDahn",
+                "url": "https://github.com/GuyDahn"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Node.js",
+            "level": "Beginner",
+            "rating": 2,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "React.js",
+            "level": "Beginner",
+            "rating": 2,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "JavaScript",
+            "level": "Advanced",
+            "rating": 4,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "HTML5",
+            "level": "Expert",
+            "rating": 5,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "CSS3",
+            "level": "Advanced",
+            "rating": 4,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "jQuery",
+            "level": "Advanced",
+            "rating": 4,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "Express.js",
+            "level": "Expert",
+            "rating": 5,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "MongoDB",
+            "level": "Advanced",
+            "rating": 4,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "MySQL",
+            "level": "Beginner",
+            "rating": 2,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "Python",
+            "level": "Beginner",
+            "rating": 2,
+            "yearsOfExperience": null,
+            "keywords": []
+        },
+        {
+            "name": "GitHub Collaboration",
+            "level": "Advanced",
+            "rating": 4,
+            "yearsOfExperience": null,
+            "keywords": []
+        }
+    ],
+    "projects": [
+        {
+            "name": "wedding-planner",
+            "displayName": "Wedding-Planner",
+            "summary": "We Do - wedding management platform",
+            "website": "",
+            "githubUrl": "https://github.com/nonomu/Wedding-Planner",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "JavaScript",
+                "JSX",
+                "MySQL"
+            ],
+            "libraries": [
+                "MobX",
+                "React.js",
+                "Material-UI",
+                "React-toastify",
+                "axios",
+                "bcrypt",
+                "Express",
+                "Sequelize"
+            ],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "react-crm",
+            "displayName": "react-crm",
+            "summary": "Customer relationship management made with React.js",
+            "website": "",
+            "githubUrl": "https://github.com/GuyDahn/react-crm",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "CSS",
+                "JavaScript"
+            ],
+            "libraries": [
+                "React.js",
+                "Axios",
+                "MongoDB",
+                "Recharts",
+                "Express"
+            ],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "react-bank",
+            "displayName": "react-bank",
+            "summary": "fullstack react app",
+            "website": "",
+            "githubUrl": "https://github.com/GuyDahn/react-bank",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "libraries": [
+                "font-awsome",
+                "MongoDB",
+                "Axios",
+                "React.js",
+                "Express"
+            ],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "blrkbuster",
+            "displayName": "blrkbuster",
+            "summary": "Front-End react project",
+            "website": "https://blrkbuster.herokuapp.com/catalog",
+            "githubUrl": "https://github.com/GuyDahn/blrkbuster",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "libraries": [
+                "React.js"
+            ],
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "weather-app",
+            "displayName": "weather-app",
+            "summary": "first full stack project",
+            "website": "https://weatherly-by-guy.herokuapp.com/",
+            "githubUrl": "https://github.com/GuyDahn/weather-app",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "CSS",
+                "HTML",
+                "JavaScript"
+            ],
+            "libraries": [
+                "Express",
+                "MongoDB",
+                "Handlebars",
+                "jQuery"
+            ],
+            "images": [],
+            "videos": []
+        }
+    ],
+    "work": [],
+    "publications": [],
+    "education": [],
+    "volunteer": [],
+    "awards": [],
+    "languages": [],
+    "interests": [],
+    "undefined": []
+}
