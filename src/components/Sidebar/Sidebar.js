@@ -16,9 +16,10 @@ const Sidebar = () => {
 
   return (
     <StyledSideNav isFixedNav expanded isChildOfHeader={false} aria-label="Side navigation">
-      <SideNavItems>
+      <div>
         {items.map(i => (
-          <SideNavLink
+          <button>
+          <Link
             isActive={
               location.pathname === '/' && i.path === '/' ? true : location.pathname === i.path
             }
@@ -27,9 +28,10 @@ const Sidebar = () => {
             key={i.name}
           >
             {i.name}
-          </SideNavLink>
+            </Link>
+          </button>
         ))}
-      </SideNavItems>
+      </div>
     </StyledSideNav>
   );
 };
