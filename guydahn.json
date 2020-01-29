@@ -27,6 +27,10 @@
                 "network": "GitHub",
                 "username": "GuyDahn",
                 "url": "https://github.com/GuyDahn"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/guy-dahan-458a36169/"
             }
         ]
     },
@@ -147,13 +151,42 @@
                 "JavaScript"
             ],
             "libraries": [
-                "React.js",
                 "Axios",
+                "React.js",
                 "MongoDB",
                 "Recharts",
                 "Express"
             ],
-            "images": [],
+            "images": [
+                {
+                    "resolutions": {
+                        "micro": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-micro",
+                            "size": 491,
+                            "width": 32,
+                            "height": 20
+                        },
+                        "thumbnail": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-thumbnail",
+                            "size": 5879,
+                            "width": 224,
+                            "height": 143
+                        },
+                        "mobile": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-mobile",
+                            "size": 21213,
+                            "width": 600,
+                            "height": 384
+                        },
+                        "desktop": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-desktop",
+                            "size": 43003,
+                            "width": 976,
+                            "height": 625
+                        }
+                    }
+                }
+            ],
             "videos": []
         },
         {

@@ -11,13 +11,29 @@ const Projects = ({ user }) => {
           {user.projects.map((project, i) => (
             <div key={i}>
               <h3>{project.name}</h3>
-              <p>{project.summary}</p>
-              <a href={project.githubUrl} target="_blank">see repository</a>
+              <a href={project.website}
+                target="_blank">
+                <img src={[...project.images].map((item) => (
+                  item.resolutions.thumbnail.url))}
+                  alt={project.name + " app"}
+                />
+              </a>
+              <p>
+                {project.summary}
+              </p>
+
               <div>
-                {[...project.languages, ...project.libraries].map((item, j) => (
+                {[...project.languages,
+                  ...project.libraries].map((item, j) => (
                   <Pill key={j}>{item}</Pill>
                 ))}
               </div>
+              <a className='repo-link'
+                href={project.githubUrl}
+                target="_blank">
+                  See On GitHub
+               </a>
+              <hr />
             </div>
           ))}
         </ul>

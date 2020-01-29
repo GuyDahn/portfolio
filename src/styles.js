@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { blue } from '@carbon/colors';
+import { gray } from '@carbon/colors';
 
 export const SectionTitle = styled.h3`
   margin-top: 1.5rem;
@@ -15,9 +15,9 @@ export const Pill = styled.span`
   margin-right: 0.75rem;
   margin-bottom: 0.75rem;
   padding: 0.5rem 1rem;
-  background-color: ${blue[20]};
-  color: ${blue[70]};
-  border: 3px solid ${blue[70]};
+  background-color: ${gray[100]};
+  color: #ffff;
+  border: 3px solid #173f5f;
   border-radius: 5px;
   font-weight: bold;
 `;

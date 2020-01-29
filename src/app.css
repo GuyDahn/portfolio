@@ -1,6 +1,7 @@
 body {
-    margin: 0em;
+    margin: 0 auto;
     height: 100vh;
+    max-width: 980px;
     background-color: #333;
 }
 
@@ -11,6 +12,29 @@ body {
     font-style: normal;
 }
 
-.me-section{
+.me-section {
     margin-left: 15px;
+}
+
+a.repo-link {
+    color: #548dd9;
+    padding: 5px;
+}
+
+/* visited link */
+
+a.repo-link :visited {
+    color: green;
+}
+
+/* mouse over link */
+
+a.repo-link :hover {
+    color: hotpink;
+}
+
+/* selected link */
+
+a.repo-link :active {
+    color: blue;
 }
