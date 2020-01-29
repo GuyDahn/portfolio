@@ -6,30 +6,28 @@ import { ProfileLink } from './styles.js';
 const Me = ({ user }) => {
   return (
     <Layout user={user}>
-      <div>
-        <SectionTitle>About Me</SectionTitle>
+      <div className='me-section'>
+        <h2>About Me</h2>
         <Paragraph>{user.basics.summary}</Paragraph>
       </div>
-      <div>
-        <SectionTitle>Skills</SectionTitle>
+      <div className='me-section'>
+        <h2>Skills</h2>
         <div>
           {user.skills.map(skill => (
             <Pill key={skill.name}>{skill.name}</Pill>
           ))}
         </div>
       </div>
-      <div>
-        <SectionTitle>Profiles</SectionTitle>
-        <ul>
+      <div className='me-section'>
+        <h2>Social Profiles</h2>
           {user.basics.profiles.map((profile, i) => (
-            <ProfileLink key={profile.network}>
+            <a key={profile.network}>
               {i !== 0 && ' | '}
               <a href={profile.url} target="_blank" rel="noreferrer noopener">
                 {profile.network}
               </a>
-            </ProfileLink>
+            </a>
           ))}
-        </ul>
       </div>
     </Layout>
   );
