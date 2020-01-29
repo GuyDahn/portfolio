@@ -27,7 +27,7 @@ const Topbar = () => {
             </Link>
           </li>
         ))}
-      </ul> 
+    </ul> 
   );
 };
 

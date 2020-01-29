@@ -26,6 +26,8 @@ li a:hover {
     background-color: #111;
 }
 
-.top-bar{
-    
+@media (max-width: 640px) {
+    .top-bar{
+        display: none;
+    }
 }

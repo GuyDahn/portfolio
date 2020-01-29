@@ -5,6 +5,6 @@ export const StyledContent = styled(Content)`
   min-height: 100%;
   color: white;
   @media (max-width: 640px) {
-    margin-left:200px!important;
+    margin-left:10px;
   }
 `

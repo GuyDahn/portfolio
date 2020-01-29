@@ -12,7 +12,6 @@ const MobileNav = () => {
           <NavButton
             hasIconOnly
             renderIcon={User32}
-            iconDescription="Me"
             tooltipPosition="bottom"
           />
         </NavLink>
@@ -20,7 +19,6 @@ const MobileNav = () => {
           <NavButton
             hasIconOnly
             renderIcon={Code32}
-            iconDescription="Projects"
             tooltipPosition="bottom"
           />
         </NavLink>
@@ -28,7 +26,6 @@ const MobileNav = () => {
           <NavButton
             hasIconOnly
             renderIcon={Portfolio32}
-            iconDescription="Work"
             tooltipPosition="bottom"
           />
         </NavLink>
@@ -36,7 +33,6 @@ const MobileNav = () => {
           <NavButton
             hasIconOnly
             renderIcon={Education32}
-            iconDescription="Education"
             tooltipPosition="bottom"
           />
         </NavLink>
