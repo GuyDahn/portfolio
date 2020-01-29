@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+import './topbar.css'
 const items = [
   { name: 'Me', path: '/' },
   { name: 'Projects', path: '/projects' },
@@ -8,13 +8,13 @@ const items = [
   { name: 'Eduction', path: '/education' },
 ];
 
-const Sidebar = () => {
+const Topbar = () => {
   const location = useLocation();
 
   return (
-      <div>
+      <ul className='top-bar'>
         {items.map(i => (
-          <button>
+          <li>
           <Link
             isActive={
               location.pathname === '/' && i.path === '/' ? true : location.pathname === i.path
@@ -25,10 +25,10 @@ const Sidebar = () => {
           >
             {i.name}
             </Link>
-          </button>
+          </li>
         ))}
-      </div> 
+      </ul> 
   );
 };
 
-export default Sidebar;
+export default Topbar;
