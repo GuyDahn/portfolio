@@ -33,7 +33,7 @@ Main screen (desktop view)
 
 A user can see their budget and all the available movies to rent.
 
-<p align="center"><img src="assets/project-responsive.JPG" width="600" /></p>
+<p align="center"><img src="assets/projects-responsive.JPG" width="600" /></p>
 
 ## Techstack
 - React.js
@@ -42,8 +42,9 @@ A user can see their budget and all the available movies to rent.
 
 ## TODO
 
-[] Create proper README.md file.
-[] Fix all projects descriptions.
-[] Work page - add data.
-[] Education page - add data.
-[] Add toggle dark/light mode option
+- [x] Create decent README.md file.
+- [ ] Fix all projects descriptions.
+- [ ] Work page - add data.
+- [ ] Education page - add data.
+- [ ] Add toggle dark/light mode option
+
