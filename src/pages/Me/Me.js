@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import { Paragraph, Pill } from '../../styles';
 
-
 const Me = ({ user }) => {
   return (
     <Layout user={user}>
@@ -20,14 +19,14 @@ const Me = ({ user }) => {
       </div>
       <div className='me-section'>
         <h2>Social Profiles</h2>
-          {user.basics.profiles.map((profile, i) => (
-            <a key={profile.network}>
-              {i !== 0 && ' | '}
-              <a href={profile.url} target="_blank" rel="noreferrer noopener">
-                {profile.network}
-              </a>
+        {user.basics.profiles.map((profile, i) => (
+          <a key={profile.network}>
+            {i !== 0 && ' | '}
+            <a href={profile.url} target="_blank" rel="noreferrer noopener">
+              {profile.network}
             </a>
-          ))}
+          </a>
+        ))}
       </div>
     </Layout>
   );
