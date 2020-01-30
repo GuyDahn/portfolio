@@ -33,7 +33,7 @@ Main screen (desktop view)
 
 A user can see their budget and all the available movies to rent.
 
-<p align="center"><img src="assets/project-responsive.JPG" width="600" /></p>
+<p align="center"><img src="assets/projects-responsive.JPG" width="600" /></p>
 
 ## Techstack
 - React.js
