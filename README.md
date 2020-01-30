@@ -43,7 +43,7 @@ A user can see their budget and all the available movies to rent.
 ## TODO
 
 - [x] Create decent README.md file.
-- [] Fix all projects descriptions.
-- [] Work page - add data.
-- [] Education page - add data.
-- [] Add toggle dark/light mode option
+- [ ] Fix all projects descriptions.
+- [ ] Work page - add data.
+- [ ] Education page - add data.
+- [ ] Add toggle dark/light mode option
