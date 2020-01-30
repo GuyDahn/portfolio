@@ -2,15 +2,15 @@
     "basics": {
         "name": "Guy Dahan",
         "picture": "https://avatars2.githubusercontent.com/u/51300186?v=4",
-        "label": "Full-Stack Web Developer | Looking forward for working with you!",
+        "label": "Full-Stack Web Developer | Looking forward to working with you!",
         "headline": null,
         "summary": "Innovation oriented solution seeker, excited to be at the deployment phase of my new career as a web developer. I am an ambitious, assiduous, responsible and highly motivated team-player. Able to build a complete full-stack MERN web app from scratch, using the technologies: JavaScript, React.js, jQuery, Handlebars, Node.js, MongoDB, SQL, Express.js, HTML, CSS.",
-        "website": null,
+        "website": "https://guy-dahn-portfolio.netlify.com/",
         "blog": null,
         "yearsOfExperience": 1,
         "id": "80550bbb-0084-4e8a-80bd-d74a909006c5",
         "username": "GuyDahn",
-        "karma": 12,
+        "karma": 13,
         "email": null,
         "region": "Tel Aviv",
         "location": {},
@@ -117,45 +117,74 @@
         {
             "name": "wedding-planner",
             "displayName": "Wedding-Planner",
-            "summary": "We Do - wedding management platform",
+            "summary": "Wedding management platform built with React. It includes vendor recommendations and booking, budget tracker, user profile management, and guest management.",
             "website": "",
             "githubUrl": "https://github.com/nonomu/Wedding-Planner",
             "primaryLanguage": "JavaScript",
             "languages": [
-                "JavaScript",
                 "JSX",
-                "MySQL"
+                "MySQL",
+                "JavaScript"
             ],
             "libraries": [
-                "MobX",
                 "React.js",
-                "Material-UI",
-                "React-toastify",
+                "MobX",
                 "axios",
                 "bcrypt",
-                "Express",
-                "Sequelize"
+                "Material-UI",
+                "React-toastify",
+                "Sequelize",
+                "Express"
             ],
-            "images": [],
+            "images": [
+                {
+                    "resolutions": {
+                        "micro": {
+                            "url": "https://project-images.gitconnectedcontent.com/6a5333a7-eb2b-4da4-88d2-63513b37710a-micro",
+                            "size": 1403,
+                            "width": 32,
+                            "height": 17
+                        },
+                        "thumbnail": {
+                            "url": "https://project-images.gitconnectedcontent.com/6a5333a7-eb2b-4da4-88d2-63513b37710a-thumbnail",
+                            "size": 17693,
+                            "width": 224,
+                            "height": 121
+                        },
+                        "mobile": {
+                            "url": "https://project-images.gitconnectedcontent.com/6a5333a7-eb2b-4da4-88d2-63513b37710a-mobile",
+                            "size": 91155,
+                            "width": 600,
+                            "height": 325
+                        },
+                        "desktop": {
+                            "url": "https://project-images.gitconnectedcontent.com/6a5333a7-eb2b-4da4-88d2-63513b37710a-desktop",
+                            "size": 304450,
+                            "width": 1200,
+                            "height": 650
+                        }
+                    }
+                }
+            ],
             "videos": []
         },
         {
             "name": "react-crm",
             "displayName": "react-crm",
-            "summary": "Customer relationship management made with React.js",
+            "summary": "Client Relationship Management app built with React.js. Includes a graphic analytics dashboard for company reports.",
             "website": "",
             "githubUrl": "https://github.com/GuyDahn/react-crm",
             "primaryLanguage": "JavaScript",
             "languages": [
-                "CSS",
-                "JavaScript"
+                "JavaScript",
+                "CSS"
             ],
             "libraries": [
-                "Axios",
-                "React.js",
                 "MongoDB",
                 "Recharts",
-                "Express"
+                "Express",
+                "React.js",
+                "Axios"
             ],
             "images": [
                 {
@@ -190,11 +219,58 @@
             "videos": []
         },
         {
-            "name": "react-bank",
-            "displayName": "react-bank",
-            "summary": "fullstack react app",
-            "website": "",
-            "githubUrl": "https://github.com/GuyDahn/react-bank",
+            "name": "blrkbuster",
+            "displayName": "blrkbuster",
+            "summary": "Blrkbuster (mock example for if blockbuster would stay in the competition with) is a front-end movie rental app built with React. Users are able to choose their user and rent movies based on their budget. Each user has a unique budget. Users can also click on the movie to see more information about the movie.",
+            "website": "https://blrkbuster.herokuapp.com/catalog",
+            "githubUrl": "https://github.com/GuyDahn/blrkbuster",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "HTML",
+                "JavaScript",
+                "CSS"
+            ],
+            "libraries": [
+                "React.js"
+            ],
+            "images": [
+                {
+                    "resolutions": {
+                        "micro": {
+                            "url": "https://project-images.gitconnectedcontent.com/89e40e7d-31f3-4990-831d-93c6f6782e10-micro",
+                            "size": 444,
+                            "width": 32,
+                            "height": 19
+                        },
+                        "thumbnail": {
+                            "url": "https://project-images.gitconnectedcontent.com/89e40e7d-31f3-4990-831d-93c6f6782e10-thumbnail",
+                            "size": 3579,
+                            "width": 224,
+                            "height": 133
+                        },
+                        "mobile": {
+                            "url": "https://project-images.gitconnectedcontent.com/89e40e7d-31f3-4990-831d-93c6f6782e10-mobile",
+                            "size": 14554,
+                            "width": 600,
+                            "height": 357
+                        },
+                        "desktop": {
+                            "url": "https://project-images.gitconnectedcontent.com/89e40e7d-31f3-4990-831d-93c6f6782e10-desktop",
+                            "size": 37787,
+                            "width": 1200,
+                            "height": 714
+                        }
+                    }
+                }
+            ],
+            "videos": []
+        },
+        {
+            "name": "weather-app",
+            "displayName": "weather-app",
+            "summary": "A full-stack app made with vanilla JavaScript. The user is able to search for a city from anywhere in the world and see the weather in the city. The user then can save a city to the database. Users can also remove a favorite city from the list (and DB).",
+            "website": "https://weatherly-by-guy.herokuapp.com/",
+            "githubUrl": "https://github.com/GuyDahn/weather-app",
             "primaryLanguage": "JavaScript",
             "languages": [
                 "JavaScript",
@@ -202,58 +278,182 @@
                 "CSS"
             ],
             "libraries": [
-                "font-awsome",
                 "MongoDB",
-                "Axios",
-                "React.js",
+                "jQuery",
+                "Handlebars",
                 "Express"
             ],
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "blrkbuster",
-            "displayName": "blrkbuster",
-            "summary": "Front-End react project",
-            "website": "https://blrkbuster.herokuapp.com/catalog",
-            "githubUrl": "https://github.com/GuyDahn/blrkbuster",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+            "images": [
+                {
+                    "resolutions": {
+                        "micro": {
+                            "url": "https://project-images.gitconnectedcontent.com/7d6cf059-6aca-4657-a256-75b5d090ae1b-micro",
+                            "size": 528,
+                            "width": 32,
+                            "height": 32
+                        },
+                        "thumbnail": {
+                            "url": "https://project-images.gitconnectedcontent.com/7d6cf059-6aca-4657-a256-75b5d090ae1b-thumbnail",
+                            "size": 9970,
+                            "width": 224,
+                            "height": 227
+                        },
+                        "mobile": {
+                            "url": "https://project-images.gitconnectedcontent.com/7d6cf059-6aca-4657-a256-75b5d090ae1b-mobile",
+                            "size": 30018,
+                            "width": 485,
+                            "height": 491
+                        },
+                        "desktop": {
+                            "url": "https://project-images.gitconnectedcontent.com/7d6cf059-6aca-4657-a256-75b5d090ae1b-desktop",
+                            "size": 30018,
+                            "width": 485,
+                            "height": 491
+                        }
+                    }
+                }
             ],
-            "libraries": [
-                "React.js"
-            ],
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "weather-app",
-            "displayName": "weather-app",
-            "summary": "first full stack project",
-            "website": "https://weatherly-by-guy.herokuapp.com/",
-            "githubUrl": "https://github.com/GuyDahn/weather-app",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "CSS",
-                "HTML",
-                "JavaScript"
-            ],
-            "libraries": [
-                "Express",
-                "MongoDB",
-                "Handlebars",
-                "jQuery"
-            ],
-            "images": [],
             "videos": []
         }
     ],
-    "work": [],
+    "work": [
+        {
+            "company": "eMojo Digital Marketing ",
+            "position": "Technical SEO Specialist ",
+            "website": "",
+            "location": "",
+            "summary": "Hands-on analysis and execution of SEO strategy for a vast variety of clients, including on-page optimization for eCommerce, medical, technological startups, and more.",
+            "isCurrentRole": false,
+            "startDate": "2019-01-01",
+            "endDate": "2019-09-01",
+            "start": {
+                "year": 2019,
+                "month": 1
+            },
+            "end": {
+                "year": 2019,
+                "month": 9
+            },
+            "highlights": []
+        },
+        {
+            "company": "GM MARKETING & MEDIA LTD ",
+            "position": "CEO ",
+            "website": "",
+            "location": "Relocated to Tbilisi, Georgia",
+            "summary": "Establishment of Outsourcing desk for Sales, Support and Marketing Departments, counting 250 employees until late 2018. ",
+            "isCurrentRole": false,
+            "startDate": "2017-01-01",
+            "endDate": "2018-12-01",
+            "start": {
+                "year": 2017,
+                "month": 1
+            },
+            "end": {
+                "year": 2018,
+                "month": 12
+            },
+            "highlights": []
+        },
+        {
+            "company": "GM MARKETING & MEDIA LTD ",
+            "position": "COO ",
+            "website": "",
+            "location": "",
+            "summary": "Reporting data to the company’s board management, in charge of the general management of the office activity. ",
+            "isCurrentRole": false,
+            "startDate": "2016-01-01",
+            "endDate": "2017-01-01",
+            "start": {
+                "year": 2016,
+                "month": 1
+            },
+            "end": {
+                "year": 2017,
+                "month": 1
+            },
+            "highlights": []
+        },
+        {
+            "company": "GM MARKETING & MEDIA LTD ",
+            "position": "Online Support Representative and Support Department Manager",
+            "website": "",
+            "location": "",
+            "summary": "",
+            "isCurrentRole": false,
+            "startDate": "2016-01-01",
+            "endDate": "2016-12-01",
+            "start": {
+                "year": 2016,
+                "month": 1
+            },
+            "end": {
+                "year": 2016,
+                "month": 12
+            },
+            "highlights": []
+        }
+    ],
     "publications": [],
-    "education": [],
+    "education": [
+        {
+            "institution": "Elevation Bootcamp",
+            "area": "Full-Stack Web Development ",
+            "studyType": "",
+            "startDate": "2019-09-01",
+            "endDate": "2019-12-01",
+            "start": {
+                "year": 2019,
+                "month": 9
+            },
+            "end": {
+                "year": 2019,
+                "month": 12
+            },
+            "description": "Full-Stack Web Development (JavaScript, React.js, jQuery, Handlebars, Node.js, MongoDB, SQL, Express.js, HTML, CSS, RESTful APIs. ",
+            "activities": "",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "LinkedIn Learning",
+            "area": "",
+            "studyType": "",
+            "startDate": "2018-01-01",
+            "endDate": "2019-01-01",
+            "start": {
+                "year": 2018,
+                "month": 1
+            },
+            "end": {
+                "year": 2019,
+                "month": null
+            },
+            "description": "Python, Linux, Windows Server, JavaScript Essentials.",
+            "activities": "",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "John Bryce ",
+            "area": "SEO",
+            "studyType": "",
+            "startDate": "2012-02-01",
+            "endDate": "2012-08-01",
+            "start": {
+                "year": 2012,
+                "month": 2
+            },
+            "end": {
+                "year": 2012,
+                "month": 8
+            },
+            "description": "Web SEO Optimization (including basics of HTML and CSS)",
+            "activities": "",
+            "gpa": "",
+            "courses": []
+        }
+    ],
     "volunteer": [],
     "awards": [],
     "languages": [],

@@ -13,5 +13,4 @@ export const Institution = styled.h4`
 
 export const Degree = styled.p`
   font-weight: bold;
-  display: inline-block;
 `
