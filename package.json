@@ -37,12 +37,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    "defaults",
-    "not IE 11",
-    "not IE_Mob 11",
-    "maintained node versions"
-  ],
   "devDependencies": {
     "babel-plugin-emotion": "^10.0.9",
     "babel-plugin-react-html-attrs": "^2.1.0",
