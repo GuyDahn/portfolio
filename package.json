@@ -10,8 +10,6 @@
   "dependencies": {
     "@carbon/icons-react": "^10.8.1",
     "@carbon/themes": "^10.9.2",
-    "@material-ui/core": "^4.9.0",
-    "@material-ui/styles": "^4.9.0",
     "bluebird": "^3.5.1",
     "carbon-components": "^10.9.2",
     "carbon-components-react": "^7.9.2",
@@ -21,7 +19,6 @@
     "jest-json-reporter": "^1.2.2",
     "jest-test-runner": "git+https://github.com/Elevationacademy/jest-test-runner.git",
     "lodash.debounce": "^4.0.8",
-    "node-sass": "^4.13.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "5.1.2",
