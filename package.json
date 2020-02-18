@@ -20,6 +20,7 @@
     "jest-test-runner": "git+https://github.com/Elevationacademy/jest-test-runner.git",
     "lodash.debounce": "^4.0.8",
     "react": "^16.4.1",
+    "react-dark-mode-toggle": "0.0.2",
     "react-dom": "^16.4.1",
     "react-router-dom": "5.1.2",
     "react-scripts": "1.1.4",

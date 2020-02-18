@@ -1,9 +1,9 @@
-import React from 'react';
-import Topbar from '../Topbar';
-import UserHeader from '../UserHeader';
-import MobileNav from '../MobileNav';
+import React from 'react'
+import Topbar from '../Topbar'
+import UserHeader from '../UserHeader'
+import MobileNav from '../MobileNav'
 
-import { StyledContent } from './styles';
+import { StyledContent } from './styles'
 
 const Layout = ({ user, children }) => {
   return (
@@ -15,7 +15,7 @@ const Layout = ({ user, children }) => {
         <div>{children}</div>
       </StyledContent>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

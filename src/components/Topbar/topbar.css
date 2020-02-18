@@ -26,8 +26,16 @@ li a:hover {
     background-color: #111;
 }
 
+.bar-container {
+    display: inline-flex;
+}
+
+.toggle-mode {
+    align-self: flex-end;
+}
+
 @media (max-width: 640px) {
-    .top-bar{
+    .top-bar {
         display: none;
     }
 }
