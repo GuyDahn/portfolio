@@ -17,6 +17,13 @@ const Topbar = () => {
 
   return (
     <div className='bar-container'>
+      <div className='toggle-mode'>
+        <DarkModeToggle
+          onChange={setIsDarkMode}
+          checked={isDarkMode}
+          size={80}
+        />
+      </div>
       <ul className='top-bar'>
         {items.map(i => (
           <li key={i.name}>
@@ -32,13 +39,6 @@ const Topbar = () => {
           </li>
         ))}
       </ul>
-      <div className='toggle-mode'>
-        <DarkModeToggle
-          onChange={setIsDarkMode}
-          checked={isDarkMode}
-          size={80}
-        />
-      </div>
     </div>
   )
 }
