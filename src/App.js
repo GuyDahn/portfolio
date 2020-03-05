@@ -18,7 +18,9 @@ function App() {
   }
 
   return (
-    <Pages user={user} />
+    <div className={'dark-mode'}>
+      <Pages user={user} />
+    </div>
   )
 }
 

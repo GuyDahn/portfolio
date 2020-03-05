@@ -7,7 +7,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 li {
@@ -16,7 +15,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgba(90, 89, 89);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,6 +23,7 @@ li a {
 
 li a:hover {
     background-color: #111;
+    color: rgb(194, 194, 194);
 }
 
 .bar-container {

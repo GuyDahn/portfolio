@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import DarkModeToggle from "react-dark-mode-toggle"
+import useDarkMode from 'use-dark-mode';
 
+// import Toggle from './Toggle';
 import './topbar.css'
 
 const items = [
@@ -14,14 +16,15 @@ const items = [
 const Topbar = () => {
   const location = useLocation()
   const [isDarkMode, setIsDarkMode] = useState(() => false)
+  const darkMode = useDarkMode(false);
 
   return (
     <div className='bar-container'>
       <div className='toggle-mode'>
-        <DarkModeToggle
-          onChange={setIsDarkMode}
-          checked={isDarkMode}
-          size={80}
+      <DarkModeToggle
+        onChange={darkMode.toggle}
+        checked={darkMode.value}
+        size={80}
         />
       </div>
       <ul className='top-bar'>

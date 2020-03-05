@@ -5,9 +5,21 @@ body {
     background-color: #333;
 }
 
+body.light-mode {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #1a1919;
+    color: #999;
+    transition: background-color 0.3s ease;
+}
+
 * {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #eeeeee;
+    /* color: #eeeeee; */
     font-weight: normal;
     font-style: normal;
 }
