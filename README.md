@@ -46,5 +46,5 @@ A user can see their budget and all the available movies to rent.
 - [x] Fix all projects descriptions.
 - [x] Work page - add data.
 - [x] Education page - add data.
-- [ ] Add toggle dark/light mode option
+- [x] Add toggle dark/light mode option
 
