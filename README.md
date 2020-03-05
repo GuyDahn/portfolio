@@ -12,7 +12,7 @@
 
 This portfolio website is a front-end personal portfolio app built with React.js. Data(JSON) is requested from GitConnected API and this being being parsed accordingly.
 
-Demo: https://guydahn-portfolio.herokuapp.com/
+Live: https://guy-dahn-portfolio.netlify.com/
 
 ## Running the project
 
