@@ -30,4 +30,7 @@ export const NavLink = styled(Link)`
 export const NavButton = styled(Button)`
   width: 100%;
   justify-content: center;
+   @media (max-width: 320px){
+     height: 50px;
+   }
 `;
