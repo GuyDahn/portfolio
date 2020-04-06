@@ -10,7 +10,7 @@
         "yearsOfExperience": 1,
         "id": "80550bbb-0084-4e8a-80bd-d74a909006c5",
         "username": "GuyDahn",
-        "karma": 13,
+        "karma": 17,
         "email": null,
         "region": "Tel Aviv",
         "location": {},
@@ -30,7 +30,8 @@
             },
             {
                 "network": "LinkedIn",
-                "url": "https://www.linkedin.com/in/guy-dahan-458a36169/"
+                "url": "https://www.linkedin.com/in/guy-dahan-458a36169/",
+                "username": "guy-dahan-458a36169"
             }
         ]
     },
@@ -115,6 +116,56 @@
     ],
     "projects": [
         {
+            "name": "react-blackjack",
+            "displayName": "react-blackjack",
+            "summary": "This is a Blackjack game made in React.js using redux and styled-components. The player places a bet and then chooses to HIT or STAND.",
+            "website": "https://guydahn.github.io/react-blackjack/",
+            "githubUrl": "https://github.com/GuyDahn/react-blackjack",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "html",
+                "javascript",
+                "css"
+            ],
+            "libraries": [
+                "react.js",
+                "posed",
+                "redux",
+                "styled-components"
+            ],
+            "images": [
+                {
+                    "resolutions": {
+                        "micro": {
+                            "url": "https://project-images.gitconnectedcontent.com/3e853fcd-096d-435f-b761-779980f60dad-micro",
+                            "size": 455,
+                            "width": 32,
+                            "height": 32
+                        },
+                        "thumbnail": {
+                            "url": "https://project-images.gitconnectedcontent.com/3e853fcd-096d-435f-b761-779980f60dad-thumbnail",
+                            "size": 3605,
+                            "width": 224,
+                            "height": 224
+                        },
+                        "mobile": {
+                            "url": "https://project-images.gitconnectedcontent.com/3e853fcd-096d-435f-b761-779980f60dad-mobile",
+                            "size": 18914,
+                            "width": 600,
+                            "height": 601
+                        },
+                        "desktop": {
+                            "url": "https://project-images.gitconnectedcontent.com/3e853fcd-096d-435f-b761-779980f60dad-desktop",
+                            "size": 51944,
+                            "width": 959,
+                            "height": 960
+                        }
+                    }
+                }
+            ],
+            "videos": []
+        },
+        {
             "name": "wedding-planner",
             "displayName": "Wedding-Planner",
             "summary": "Wedding management platform built with React. It includes vendor recommendations and booking, budget tracker, user profile management, and guest management.",
@@ -122,19 +173,19 @@
             "githubUrl": "https://github.com/nonomu/Wedding-Planner",
             "primaryLanguage": "JavaScript",
             "languages": [
-                "JSX",
                 "MySQL",
+                "JSX",
                 "JavaScript"
             ],
             "libraries": [
+                "Express",
                 "React.js",
                 "MobX",
                 "axios",
                 "bcrypt",
                 "Material-UI",
                 "React-toastify",
-                "Sequelize",
-                "Express"
+                "Sequelize"
             ],
             "images": [
                 {
@@ -169,49 +220,44 @@
             "videos": []
         },
         {
-            "name": "react-crm",
-            "displayName": "react-crm",
-            "summary": "Client Relationship Management app built with React.js. Includes a graphic analytics dashboard for company reports.",
-            "website": "",
-            "githubUrl": "https://github.com/GuyDahn/react-crm",
-            "primaryLanguage": "JavaScript",
+            "name": "react-yelp",
+            "displayName": "react-yelp",
+            "summary": "a reverse engineering for yelp app in react.js, using ElasticSearch and Google Maps API",
+            "website": "https://belp-yelp.herokuapp.com/",
+            "githubUrl": "https://github.com/GuyDahn/react-yelp",
+            "primaryLanguage": "CSS",
             "languages": [
                 "JavaScript",
+                "HTML",
                 "CSS"
             ],
-            "libraries": [
-                "MongoDB",
-                "Recharts",
-                "Express",
-                "React.js",
-                "Axios"
-            ],
+            "libraries": [],
             "images": [
                 {
                     "resolutions": {
                         "micro": {
-                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-micro",
-                            "size": 491,
+                            "url": "https://project-images.gitconnectedcontent.com/82b6afe6-a534-48da-8a6d-f04cb65d0c6e-micro",
+                            "size": 443,
                             "width": 32,
-                            "height": 20
+                            "height": 16
                         },
                         "thumbnail": {
-                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-thumbnail",
-                            "size": 5879,
+                            "url": "https://project-images.gitconnectedcontent.com/82b6afe6-a534-48da-8a6d-f04cb65d0c6e-thumbnail",
+                            "size": 4627,
                             "width": 224,
-                            "height": 143
+                            "height": 114
                         },
                         "mobile": {
-                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-mobile",
-                            "size": 21213,
+                            "url": "https://project-images.gitconnectedcontent.com/82b6afe6-a534-48da-8a6d-f04cb65d0c6e-mobile",
+                            "size": 20376,
                             "width": 600,
-                            "height": 384
+                            "height": 306
                         },
                         "desktop": {
-                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-desktop",
-                            "size": 43003,
-                            "width": 976,
-                            "height": 625
+                            "url": "https://project-images.gitconnectedcontent.com/82b6afe6-a534-48da-8a6d-f04cb65d0c6e-desktop",
+                            "size": 59330,
+                            "width": 1200,
+                            "height": 612
                         }
                     }
                 }
@@ -222,12 +268,12 @@
             "name": "blrkbuster",
             "displayName": "blrkbuster",
             "summary": "Blrkbuster (mock example for if blockbuster would stay in the competition with) is a front-end movie rental app built with React. Users are able to choose their user and rent movies based on their budget. Each user has a unique budget. Users can also click on the movie to see more information about the movie.",
-            "website": "https://blrkbuster.herokuapp.com/catalog",
+            "website": "https://blrkbuster.herokuapp.com/",
             "githubUrl": "https://github.com/GuyDahn/blrkbuster",
             "primaryLanguage": "JavaScript",
             "languages": [
-                "HTML",
                 "JavaScript",
+                "HTML",
                 "CSS"
             ],
             "libraries": [
@@ -266,6 +312,56 @@
             "videos": []
         },
         {
+            "name": "react-crm",
+            "displayName": "react-crm",
+            "summary": "Client Relationship Management app built with React.js. Includes a graphic analytics dashboard for company reports.",
+            "website": "",
+            "githubUrl": "https://github.com/GuyDahn/react-crm",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "CSS",
+                "JavaScript"
+            ],
+            "libraries": [
+                "Axios",
+                "React.js",
+                "Express",
+                "Recharts",
+                "MongoDB"
+            ],
+            "images": [
+                {
+                    "resolutions": {
+                        "micro": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-micro",
+                            "size": 491,
+                            "width": 32,
+                            "height": 20
+                        },
+                        "thumbnail": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-thumbnail",
+                            "size": 5879,
+                            "width": 224,
+                            "height": 143
+                        },
+                        "mobile": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-mobile",
+                            "size": 21213,
+                            "width": 600,
+                            "height": 384
+                        },
+                        "desktop": {
+                            "url": "https://project-images.gitconnectedcontent.com/25b4f017-6ec1-4074-8dff-dc32a3b4b030-desktop",
+                            "size": 43003,
+                            "width": 976,
+                            "height": 625
+                        }
+                    }
+                }
+            ],
+            "videos": []
+        },
+        {
             "name": "weather-app",
             "displayName": "weather-app",
             "summary": "A full-stack app made with vanilla JavaScript. The user is able to search for a city from anywhere in the world and see the weather in the city. The user then can save a city to the database. Users can also remove a favorite city from the list (and DB).",
@@ -273,15 +369,15 @@
             "githubUrl": "https://github.com/GuyDahn/weather-app",
             "primaryLanguage": "JavaScript",
             "languages": [
-                "JavaScript",
+                "CSS",
                 "HTML",
-                "CSS"
+                "JavaScript"
             ],
             "libraries": [
-                "MongoDB",
-                "jQuery",
                 "Handlebars",
-                "Express"
+                "Express",
+                "MongoDB",
+                "jQuery"
             ],
             "images": [
                 {
@@ -309,6 +405,47 @@
                             "size": 30018,
                             "width": 485,
                             "height": 491
+                        }
+                    }
+                }
+            ],
+            "videos": []
+        },
+        {
+            "name": "portfolio",
+            "displayName": "Portfolio",
+            "summary": "This portfolio website is a front-end personal portfolio app built with React.js. Data(JSON) is requested from GitConnected API and this being parsed accordingly.",
+            "website": "https://guydahn-portfolio.herokuapp.com/",
+            "githubUrl": "https://github.com/GuyDahn/portfolio",
+            "primaryLanguage": "",
+            "languages": [],
+            "libraries": [],
+            "images": [
+                {
+                    "resolutions": {
+                        "micro": {
+                            "url": "https://project-images.gitconnectedcontent.com/58605ffa-5b8d-4eb3-b46f-7f21815c6f31-micro",
+                            "size": 221,
+                            "width": 32,
+                            "height": 30
+                        },
+                        "thumbnail": {
+                            "url": "https://project-images.gitconnectedcontent.com/58605ffa-5b8d-4eb3-b46f-7f21815c6f31-thumbnail",
+                            "size": 5269,
+                            "width": 224,
+                            "height": 211
+                        },
+                        "mobile": {
+                            "url": "https://project-images.gitconnectedcontent.com/58605ffa-5b8d-4eb3-b46f-7f21815c6f31-mobile",
+                            "size": 25502,
+                            "width": 600,
+                            "height": 564
+                        },
+                        "desktop": {
+                            "url": "https://project-images.gitconnectedcontent.com/58605ffa-5b8d-4eb3-b46f-7f21815c6f31-desktop",
+                            "size": 56134,
+                            "width": 1017,
+                            "height": 956
                         }
                     }
                 }
@@ -417,7 +554,7 @@
         },
         {
             "institution": "LinkedIn Learning",
-            "area": "",
+            "area": "Coding and Networks",
             "studyType": "",
             "startDate": "2018-01-01",
             "endDate": "2019-01-01",
@@ -429,7 +566,7 @@
                 "year": 2019,
                 "month": null
             },
-            "description": "Python, Linux, Windows Server, JavaScript Essentials.",
+            "description": "JavaScript Essentials, Google Tag Manager, Google Analytics. Python, Linux, Windows Server(Installation and configuration, including storage services, Hyper-V configuration).",
             "activities": "",
             "gpa": "",
             "courses": []
@@ -458,5 +595,5 @@
     "awards": [],
     "languages": [],
     "interests": [],
-    "undefined": []
+    "references": []
 }

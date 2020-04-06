@@ -1,6 +1,5 @@
 import React from 'react'
-import { User32, Code32, Portfolio32, Education32 } from '@carbon/icons-react'
-
+import { User32, Code32, Portfolio32, Education32, Phone32 } from '@carbon/icons-react'
 import { Container, Spacer, NavWrapper, NavButton, NavLink } from './styles.js'
 
 const MobileNav = () => {
@@ -33,6 +32,13 @@ const MobileNav = () => {
           <NavButton
             hasIconOnly
             renderIcon={Education32}
+            tooltipPosition="bottom"
+          />
+        </NavLink>
+        <NavLink to="/contact">
+          <NavButton
+            hasIconOnly
+            renderIcon={Phone32}
             tooltipPosition="bottom"
           />
         </NavLink>

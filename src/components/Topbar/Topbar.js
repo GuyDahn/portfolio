@@ -10,6 +10,7 @@ const items = [
   { name: 'Projects', path: '/projects' },
   { name: 'Work', path: '/work' },
   { name: 'Eduction', path: '/education' },
+  { name: 'Contact', path: '/contact' },
 ]
 
 const Topbar = () => {
