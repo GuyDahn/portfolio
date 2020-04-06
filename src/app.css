@@ -53,3 +53,9 @@ a.repo-link :hover {
 a.repo-link :active {
     color: blue;
 }
+
+@media (max-width: 640px) {
+    button.sc-AykKJ.jBmFVi.bx--btn.bx--btn--primary.bx--btn--icon-only.bx--tooltip__trigger.bx--tooltip--a11y.bx--tooltip--bottom {
+        padding: 5%;
+    }
+}

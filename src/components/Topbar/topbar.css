@@ -41,4 +41,10 @@ li a:hover {
     .top-bar {
         display: none;
     }
+    .toggle-mode {
+        /* position: absolute;*/
+        top: 8vh;
+        right: 5px;
+        /* left: 5px; */
+    }
 }
