@@ -6,7 +6,7 @@ const Contact = ({ user }) => {
   return (
     <Layout user={user}>
       <div className='me-section'>
-        <br/>
+        <br />
         You can find me in one of my....
         <h2>Social Profiles</h2>
         {user.basics.profiles.map((profile, i) => (
@@ -18,11 +18,18 @@ const Contact = ({ user }) => {
           </a>
         ))}
         <h2>Email</h2>
-        <Paragraph><a href='mailto:guydaane@gmail.com'>guydaane@gmail.com</a></Paragraph>
-        <h2>Or simply give me a call:</h2>
+        <Paragraph>
+          <a href='mailto:guydaane@gmail.com'>
+            guydaane@gmail.com
+            </a>
+        </Paragraph>
+        <h2>Or simply give me a call</h2>
         <a href='tel:+972507259265'>050-7259265</a>
+        <h2>CV for download</h2>
+        <a href="/guydahan-webdev-cv.pdf" download="/guydahan-webdev-cv.pdf">
+          Download PDF
+        </a>
       </div>
-      
     </Layout>
   );
 };
